@@ -1,0 +1,2038 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Seal Team 6</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="mdbootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="mdbootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="mdbootstrap/css/mdb.min.css"/>
+    <link rel='shortcut icon' type='image/x-icon' href='screenshots/favicon.ico'/>
+</head>
+<body style="margin-top: 50px;" class="container">
+	<script src="mdbootstrap/js/jquery-2.2.3.min.js"></script>
+    <script src="mdbootstrap/js/tether.min.js"></script>
+    <script src="mdbootstrap/js/bootstrap.min.js"></script>
+    <script src="mdbootstrap/js/mdb.min.js"></script>
+
+
+<div class="text-center">
+	<h3>Select a project to view:</h3>
+	<span class="btn-group">
+		<button data-project="2" class="btn btn-secondary project-toggle">Projects 1 and 2</button>
+		<button data-project="3" class="btn btn-secondary project-toggle">Project 3</button>
+	</span>
+</div>
+<br/>
+<br/>
+
+
+<!-- PROJECT 3 -->
+<div class="project" id="p3">
+
+
+<div style="margin-bottom: 25px;" class="card default-color text-center z-depth-2">
+    <div class="card-block">
+        <p style="font-size: 200%; font-family: monospace;" class="white-text">Seal Team 6</p>
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<div class="btn-group" role="group" aria-label="Basic example">
+					<a href="#task-distribution" class="btn btn-secondary">Task Distribution</a>
+					<a href="#class-diagram-of-system" class="btn btn-secondary">UML Class Diagram of ChocAn System</a>
+					<a href="#sequence-diagrams" class="btn btn-secondary">Sequence Diagrams</a>
+					<a href="#coupling-and-cohesion" class="btn btn-secondary">Analysis of Coupling and Cohesion</a>
+				</div>
+			</div>
+		</div>
+    </div>
+</div>
+<br/>
+<br/>
+
+<!-- task distribution section -->
+<h2 id="task-distribution" class="lead text-center" style="font-size: 150%; font-family: monospace; margin-top: 100px;">Task Distribution</h2>
+<hr/>
+<div style="margin-left: 50px;" class="row">
+	<div style="margin: 20px;" class="col-lg-5">
+    	<div class="card card-warning text-center z-depth-2">
+    	    <div class="card-block">
+				<h4 style="font-weight: bold; color: white; font-size: 150%; margin-bottom: 35px;" class="lead">
+					<span class="pull-left">Landon Newberry </span>
+					<span class="pull-right">12 hr</span></h4>
+				<hr/>
+    	        <p class="white-text">
+					<ul class="white-text text-left">
+						<li>Project 1 and 2:</li>
+						<ul class="white-text text-left">
+							<li>&nbsp;&nbsp;&nbsp;&nbsp;
+								Revised Project 1</li>
+							<li>&nbsp;&nbsp;&nbsp;&nbsp;
+								Revised Diagram</li>
+							<li>&nbsp;&nbsp;&nbsp;&nbsp;
+								Formatted all of the HTML for the report</li>
+							<li>&nbsp;&nbsp;&nbsp;&nbsp;
+								Overview Use Case Diagram</li>
+							<li>&nbsp;&nbsp;&nbsp;&nbsp;
+								Use Cases:
+								<ul>
+									<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+										<a href="#sending-reports">Generating Reports</a>
+									</li>
+									<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+										<a href="#send-financial-reports">Generate Financial Reports</a>
+									</li>
+									<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+										<a href="#send-provider-reports">Generate Provider Reports</a>
+									</li>
+									<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+										<a href="#send-member-reports">Generate Member Reports</a>
+									</li>
+								</ul>
+							</li>
+							<li>&nbsp;&nbsp;&nbsp;&nbsp;
+								Use Case Diagram:
+								<ul>
+									<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+										<a href="screenshots/Send_Reports_--_Landon.png">Send Reports</a>
+									</li>
+									<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+										<a href="screenshots/ChocAnMainOverview--Revised.png">Main Overview</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+						<li>&nbsp;</li>
+						<li>Project 3:</li>
+						<ul class="white-text text-left">
+							<li>&nbsp;&nbsp;&nbsp;&nbsp;
+								Formatted HTML</li>
+							<li>&nbsp;&nbsp;&nbsp;&nbsp;
+								Sequence Diagrams:</li>
+								<ul class="white-text text-left">
+									<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+										<a href="#landon-seq-diagrams">Generating Reports</a>
+									</li>
+									<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+										<a href="#landon-seq-diagrams">Generate Financial Reports</a>
+									</li>
+									<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+										<a href="#landon-seq-diagrams">Generate Provider Reports</a>
+									</li>
+									<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+										<a href="#landon-seq-diagrams">Generate Member Reports</a>
+									</li>
+								</ul>
+						</ul>
+					</ul>
+				</p>
+    	    </div>
+   		</div>
+	</div>
+	<div style="margin: 20px;" class="col-lg-5">
+    	<div class="card card-warning text-center z-depth-2">
+    	    <div class="card-block">
+				<h4 style="font-weight: bold; color: white; font-size: 150%; margin-bottom: 35px;" class="lead text-center">
+					<span class="pull-left">Raychel Delaney </span>
+					<span class="pull-right">10 hr</span></h4>
+				</h4>
+				<hr/>
+    	        <p class="white-text">
+					<ul class="white-text text-left">
+						<li>Revised Diagrams</li>
+						<li>&nbsp;</li>
+						<li>Revision of Project 1</li>
+						<li>&nbsp;</li>
+						<li>Editting File</li>
+						<li>&nbsp;</li>
+						<li>Use Cases:
+							<ul>
+								<li>&nbsp;&nbsp;&nbsp;&nbsp;
+									<a href="#bill-chocan">Bill ChocAn</a>
+								</li>
+								<li>&nbsp;&nbsp;&nbsp;&nbsp;
+									<a href="#write-disk">Write to Disk</a>
+								</li>
+								<li>&nbsp;&nbsp;&nbsp;&nbsp;
+									<a href="#display-total">Displays Service Fee Total</a>
+								</li>
+								<li>&nbsp;&nbsp;&nbsp;&nbsp;
+									<a href="#swipe-card">Swipe Card</a>
+								</li>
+							</ul>
+						</li>
+						<li>&nbsp;</li>
+						<li>Use Case Diagram:
+							<ul>
+								<li>&nbsp;&nbsp;&nbsp;&nbsp;
+									<a href="screenshots/billchocan.png">Bill ChocAn</a>
+								</li>
+							</ul>
+						</li>						
+					</ul>
+				</p>
+    	    </div>
+   		</div>
+	</div>
+	<div style="margin: 20px;" class="col-lg-5">
+    	<div class="card card-warning text-center z-depth-2">
+    	    <div class="card-block">
+				<h4 style="font-weight: bold; color: white; font-size: 150%; margin-bottom: 35px;" class="lead text-center">
+					<span class="pull-left">Francisco Rovelo </span>
+					<span class="pull-right">9 hr</span></h4>	
+				</h4>
+				<hr/>
+    	        <p class="white-text">
+					<ul class="white-text text-left">
+						<li>Project 3:
+							<ul>
+								<li>&nbsp;&nbsp;&nbsp;&nbsp;
+								 	Revised Project 2
+								 	<li>&nbsp;&nbsp;&nbsp;&nbsp;
+									Sequence Diagrams:
+									<ul>
+										<li>&nbsp;&nbsp;&nbsp;&nbsp;
+											&nbsp;&nbsp;&nbsp;&nbsp;
+								 			<a href="screenshots/FransPics/Manage_SD.png">Manage</a
+								 		</li>
+										<li>&nbsp;&nbsp;&nbsp;&nbsp;
+											&nbsp;&nbsp;&nbsp;&nbsp;
+											<a href="screenshots/FransPics/M_M.png">Manage Member</a>
+										</li>
+										<li>&nbsp;&nbsp;&nbsp;&nbsp;
+											&nbsp;&nbsp;&nbsp;&nbsp;
+											<a href="screenshots/FransPics/M_P.png">Manage Provider</a>
+										</li>
+										<li>&nbsp;&nbsp;&nbsp;&nbsp;
+											&nbsp;&nbsp;&nbsp;&nbsp;
+											<a href="screenshots/FransPics/M_PD.png">Manage Provider Directory</a>
+										</li>
+										<li>&nbsp;&nbsp;&nbsp;&nbsp;
+											&nbsp;&nbsp;&nbsp;&nbsp;
+											<a href="screenshots/FransPics/VD_SD.png">Validate Card</a>
+										</li>
+										</ul>
+								</li>
+
+								 </li>
+							</ul>
+						</li>
+						<li>Project 2:
+							<ul>
+								<li>&nbsp;&nbsp;&nbsp;&nbsp;
+								 	Revised Project 1
+								 </li>
+								<li>&nbsp;&nbsp;&nbsp;&nbsp;
+									Task 1 Summary
+								</li>
+								<li>&nbsp;&nbsp;&nbsp;&nbsp;
+									Activity Diagrams:
+									<ul>
+										<li>&nbsp;&nbsp;&nbsp;&nbsp;
+											&nbsp;&nbsp;&nbsp;&nbsp;
+								 			<a href="screenshots/FransPics/ManageAD.png">Manage</a>
+								 		</li>
+										<li>&nbsp;&nbsp;&nbsp;&nbsp;
+											&nbsp;&nbsp;&nbsp;&nbsp;
+											<a href="screenshots/FransPics/ManageMAD.png">Manage Member</a>
+										</li>
+										<li>&nbsp;&nbsp;&nbsp;&nbsp;
+											&nbsp;&nbsp;&nbsp;&nbsp;
+											<a href="screenshots/FransPics/ManagePAD.png">Manage Provider</a>
+										</li>
+										<li>&nbsp;&nbsp;&nbsp;&nbsp;
+											&nbsp;&nbsp;&nbsp;&nbsp;
+											<a href="screenshots/FransPics/ManagePDAD.jpg">Manage Provider Directory</a>
+										</li>
+										<li>&nbsp;&nbsp;&nbsp;&nbsp;
+											&nbsp;&nbsp;&nbsp;&nbsp;
+											<a href="screenshots/FransPics/ValidateAD.png">Validate Card</a>
+										</li>
+										</ul>
+								</li>
+							</ul>
+						</li>
+						<li>&nbsp;</li>
+						<li>Project 1:</li>
+							<ul>
+								<li>&nbsp;&nbsp;&nbsp;&nbsp	
+									Use Cases:
+									<ul>
+										<li>&nbsp;&nbsp;&nbsp;&nbsp;
+											&nbsp;&nbsp;&nbsp;&nbsp;
+											<a href="#Manage">Manage</a>
+										</li>
+										<li>&nbsp;&nbsp;&nbsp;&nbsp;
+											&nbsp;&nbsp;&nbsp;&nbsp;
+											<a href="#manage-member">Manage Member</a>
+										</li>
+										<li>&nbsp;&nbsp;&nbsp;&nbsp;
+											&nbsp;&nbsp;&nbsp;&nbsp;
+											<a href="#manage-provider">Manage Provider</a>
+										</li>
+										<li>&nbsp;&nbsp;&nbsp;&nbsp;
+											&nbsp;&nbsp;&nbsp;&nbsp;
+											<a href="#manage-provider-directory">Manage Provider Directory</a>
+										</li>
+										<li>&nbsp;&nbsp;&nbsp;&nbsp;
+											&nbsp;&nbsp;&nbsp;&nbsp;
+											<a href="#Validate-Card">Validate Card</a>
+										</li>
+										</ul>
+								</li>
+								<li>&nbsp;</li>
+								<li> &nbsp;&nbsp;&nbsp;&nbsp;
+									Use Case Diagram:
+										<li>&nbsp;&nbsp;&nbsp;&nbsp;
+											&nbsp;&nbsp;&nbsp;&nbsp;
+											<a href="screenshots/FransPics/01.png">Manage VPP</a>
+										</li>
+										<li>&nbsp;&nbsp;&nbsp;&nbsp;
+											&nbsp;&nbsp;&nbsp;&nbsp;
+											<a href="screenshots/FransPics/02.png">Validate Card VPP</a>
+										</li>
+							</ul>
+						</li>
+					</ul>
+				</p>
+    	    </div>
+   		</div>
+	</div>
+	<div style="margin: 20px;" class="col-lg-5">
+    	<div class="card card-warning text-center z-depth-2">
+    	    <div class="card-block">
+				<h4 style="font-weight: bold; color: white; font-size: 150%; margin-bottom: 35px;" class="lead text-center">
+					<span class="pull-left">Jacob Cowles </span>
+					<span class="pull-right">8 hrs</span></h4>
+				</h4>
+				<hr/>
+    	        <p class="white-text">
+					<ul class="white-text text-left">
+						<li>Revised Project 1</li>
+						<li>&nbsp;</li>
+						<li>Main Activity Diagram</li>
+						<li>&nbsp;</li>
+						<li>Use Cases:
+							<ul>
+								<li>&nbsp;&nbsp;&nbsp;&nbsp;
+								<a href="#send-directory">Send Directory</a>
+								</li>
+							<ul>
+						</li>
+						<li>&nbsp;</li>
+						<li>Use Case Diagram:
+								<li>&nbsp;&nbsp;&nbsp;&nbsp;
+									<a href="screenshots/ChocAn_Send_Directory_--_Jake.png">Send Directory</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</p>
+    	    </div>
+   		</div>
+	</div>
+	<div style="margin: 20px;" class="col-lg-5">
+    	<div class="card card-warning text-center z-depth-2">
+    	    <div class="card-block">
+				<h4 style="font-weight: bold; color: white; font-size: 150%; margin-bottom: 35px;" class="lead text-center">
+					<span class="pull-left">Carson Dobiash </span>
+					<span class="pull-right">10 hr</span></h4>
+				</h4>
+				<hr/>
+    	        <p class="white-text">
+					<ul class="white-text text-left">
+						<li>Project 1 and 2:</li>
+						<ul class="white-text text-left">
+							<li>&nbsp;&nbsp;&nbsp;&nbsp;
+								Revised Project 1
+							</li>
+							<li>&nbsp;&nbsp;&nbsp;&nbsp;
+								<a href="#glossary">Glossary</a>
+							</li>
+							<li>&nbsp;&nbsp;&nbsp;&nbsp;
+								<a href="#stereotype">Stereotype Diagram</a>
+							<li>
+							<li>&nbsp;&nbsp;&nbsp;&nbsp;
+								Edited HTML
+							</li>
+							<li>&nbsp;&nbsp;&nbsp;&nbsp;
+								Final Checks
+							</li>
+							<li>&nbsp;&nbsp;&nbsp;&nbsp;
+								Submitter
+							</li>
+						</ul>
+						<li>Project 3:</li>
+						<ul>
+							<li>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#class-diagram-of-system">Class Diagram</a></li>
+							<li>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#coupling-and-cohesion">Analysis of Coupling and Cohesion</a></li>
+							<li>&nbsp;&nbsp;&nbsp;&nbsp;Edited HTML</li>
+							<li>&nbsp;&nbsp;&nbsp;&nbsp;Final Checks</li>
+							<li>&nbsp;&nbsp;&nbsp;&nbsp;Submitter</li>
+						</ul>
+					</ul>
+				</p>
+    	    </div>
+   		</div>
+	</div>
+</div>
+<br/><hr/><br/>
+<!-- end of task distribution section -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- TASK 1 -->
+<!-- uml class diagram of the chocan system -->
+<div id="class-diagram-of-system">
+<h2 style="font-size: 250%;" class="section-heading lead text-center">UML Class Diagram of ChocAn System</h2>
+<br/>
+<div class="text-center"><a href="screenshots/Screen Shot 2017-03-26 at 3.32.34 PM.png" class="btn btn-md btn-success center">Diagram</a></div>
+<br/>
+</div>
+<br/><br/><hr/><br/><br/>
+<!-- END OF TASK 1 -->
+
+
+
+
+
+
+<!-- ignore this -->
+<style>
+	.seq-d {
+		font-family: monospace;
+		border: 1px solid rgba(0, 0, 0, .3);
+		box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, .4);
+		border-radius: 10px;
+		margin: 5px;
+	}
+	.seq-d h4 {
+		margin-top: 5px;
+	}
+	.seq-d p {
+		font-size: 83%;
+	}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- TASK 2 -->
+<!-- sequence diagrams -->
+<div id="sequence-diagrams">
+<h2 style="font-size: 250%;" class="section-heading lead text-center">Sequence Diagrams</h2>
+<hr/>
+<br/>
+
+
+	<!-- Landons diagrams -->
+	<h3 id="landon-seq-diagrams" class="text-center">Landon Newberry</h3>
+	<div style="margin-top: 30px;padding-left: 30px;" class="row text-center">
+			<div class="col-md-5 seq-d">
+				<h4 class="text-center lead">
+					Generating Reports
+				</h4>
+				<hr/>
+				<div class="text-center">
+					<a href="screenshots/Generate_Reports_Sequence_Diagram.png" class="btn btn-md btn-warning">Diagram</a>
+				</div>
+				<p class="lead text-left">
+					Every week, the ChocAn System automatically generates Financial (summary), Member, and Provider reports and sends them to the appropriate party. 
+					At any point during the week, a ChocAn manager may request a report and recieve it via email.
+				</p>
+			</div>
+
+
+
+			<div class="col-md-5 seq-d">
+				<h4 class="text-center lead">
+					Generate Financial Reports
+				</h4>
+				<hr/>
+				<div class="text-center">
+					<a href="screenshots/Generate_Financial_Reports_SD.png" class="btn btn-md btn-warning">Diagram</a>
+				</div>
+				<p class="lead text-left">
+					The Financial (summary) reports will be automatically generated once a week and sent to a ChocAn Manager, <i>or</i>, 
+					the manager may request the reports earlier during the week.
+				</p>
+			</div>
+
+
+
+			<div class="col-md-5 seq-d">
+				<h4 class="text-center lead">
+					Generate Provider Reports
+				</h4>
+				<hr/>
+				<div class="text-center">
+					<a href="screenshots/Generate_Provider_Reports_SD.png" class="btn btn-md btn-warning">Diagram</a>
+				</div>
+				<p class="lead text-left">
+					The Provider reports will be automatically generated once a week and sent to ChocAn service providers via email. 
+					The ChocAn Manager may also request a report for a service provider and receive it via email.				
+				</p>
+			</div>
+
+
+			<div class="col-md-5 seq-d">
+				<h4 class="text-center lead">
+					Generate Member Reports
+				</h4>
+				<hr/>
+				<div class="text-center">
+					<a href="screenshots/Generate_Member_Reports_SD.png" class="btn btn-md btn-warning">Diagram</a>
+				</div>
+				<p class="lead text-left">
+					The Member reports will be automatically generated once a week and sent to ChocAn members via email. 
+					The ChocAn Manager may also request a report for a member and receive it via email.
+				</p>
+			</div>
+	</div>
+
+
+
+	<br/>
+	<hr/>
+	<br/>
+
+
+
+	<!-- Frans diagrams -->
+	<h3 class="text-center">Francisco Rovelo</h3>
+	<div style="margin-top: 30px;padding-left: 30px;" class="row text-center">
+			<div class="col-md-5 seq-d">
+				<h4 class="text-center lead">
+					Validate Card
+				</h4>
+				<hr/>
+				<div class="text-center">
+					<a href="screenshots/FransPics/VD_SD.png" class="btn btn-md btn-warning">Diagram</a>
+				</div>
+				<p class="lead text-left">
+					When the operator swipes the members card through the terminal, the terminal then dials the Data Center to check if the number is valide and then returns rather it is or isn't
+				</p>
+			</div>
+
+
+
+			<div class="col-md-5 seq-d">
+				<h4 class="text-center lead">
+					Manage
+				</h4>
+				<hr/>
+				<div class="text-center">
+					<a href="screenshots/FransPics/Manage_SD.png" class="btn btn-md btn-warning">Diagram</a>
+				</div>
+				<p class="lead text-left">
+					Here, the operator can manage members, providers, or the provider directory by adding, deleting or editing from any of them.
+				</p>
+			</div>
+	
+
+			
+			<div class="col-md-5 seq-d">
+				<h4 class="text-center lead">
+					Manage Members
+				</h4>
+				<hr/>
+				<div class="text-center">
+					<a href="screenshots/FransPics/M_M.png" class="btn btn-md btn-warning">Diagram</a>
+				</div>
+				<p class="lead text-left">
+					Here, the operator can manage members  by adding, deleting or editing.
+				</p>
+			</div>
+	
+
+
+			<div class="col-md-5 seq-d">
+				<h4 class="text-center lead">
+					Manage Provider
+				</h4>
+				<hr/>
+				<div class="text-center">
+					<a href="screenshots/FransPics/M_P.png" class="btn btn-md btn-warning">Diagram</a>
+				</div>
+				<p class="lead text-left">
+					Here, the operator can manage the providers by adding, deleting or editing from any of them.
+				</p>
+			</div>
+	
+
+			<div class="col-md-5 seq-d">
+				<h4 class="text-center lead">
+					Manage Provider Directory
+				</h4>
+				<hr/>
+				<div class="text-center">
+					<a href="screenshots/FransPics/M_PD.png" class="btn btn-md btn-warning">Diagram</a>
+				</div>
+				<p class="lead text-left">
+					Here, the operator can manage the provider directory by adding, deleting or editing them.
+				</p>
+			</div>
+	</div>
+
+
+	<br/>
+	<hr/>
+	<br/>
+
+
+
+
+	<!-- Raychels diagrams -->
+	<h3 class="text-center">Raychel Delaney</h3>
+	<div style="margin-top: 30px;padding-left: 30px;" class="row text-center">
+			<div class="col-md-5 seq-d">
+				<h4 class="text-center lead">
+					Billing ChocAn
+				</h4>
+				<hr/>
+				<div class="text-center">
+					<a href="screenshots/billingChocAnSD.jpg" class="btn btn-md btn-warning">Diagram</a>
+				</div>
+				<p class="lead text-left">
+					This is used by the provider to bill ChocAn after a health care service has been provided to a ChocAn member.
+				</p>
+			</div>
+
+
+
+			<div class="col-md-5 seq-d">
+				<h4 class="text-center lead">
+					Enter Service Codes
+				</h4>
+				<hr/>
+				<div class="text-center">
+					<a href="screenshots/servicecodeSD.png" class="btn btn-md btn-warning">Diagram</a>
+				</div>
+				<p class="lead text-left">
+					After the provider swipes the members card to start preparing the Bill through the ChocAn System, the provider is then tasked with finding, entering, and verifying the service code before proceeding to the next step.
+				</p>
+			</div>
+
+
+
+			<div class="col-md-5 seq-d">
+				<h4 class="text-center lead">
+					Write Disk
+				</h4>
+				<hr/>
+				<div class="text-center">
+					<a href="screenshots/writediskSD.png" class="btn btn-md btn-warning">Diagram</a>
+				</div>
+				<p class="lead text-left">
+					After the provider verifies the service code while preparing the Bill through the ChocAn System, the provider is then tasked with editting and filling in all the form slots accurately. After that has been verified, it writes to disk and displays an error message if input is invalid. The information written into the disk and field requirements include:
+					<ul>
+						<li>Current date and time (MM–DD–YYYY HH:MM:SS)</li>
+						<li>Date service was provided (MM–DD–YYYY) </li>
+						<li>Provider number (9 digits)</li>
+						<li>Member number (9 digits)</li>
+						<li>Service code (6 digits)</li>
+						<li>Comments (100 characters) (optional).</li>
+					</ul> 
+				</p>
+			</div>
+
+
+			<div class="col-md-5 seq-d">
+				<h4 class="text-center lead">
+					Display Total
+				</h4>
+				<hr/>
+				<div class="text-center">
+					<a href="screenshots/displaytotalSD.png" class="btn btn-md btn-warning">Diagram</a>
+				</div>
+				<p class="lead text-left">
+					After the provider finished inputting the information into the system and verified it's accuracy, the sytem begins doing calculations. The prepared Bill through the ChocAn System, is displayed on the screen. The next step requires the provides to take notes off the system and total up the fees every week to compare it to the system.
+				</p>
+			</div>
+	</div>
+
+
+
+	<br/>
+	<hr/>
+	<br/>
+
+
+
+
+
+
+	<!-- Jacobs diagrams -->
+	<h3 class="text-center">Jacob Cowles</h3>
+	<div style="margin-top: 30px;padding-left: 30px;" class="row text-center">
+			<div class="col-md-5 seq-d">
+				<h4 class="text-center lead">
+					Request Directory
+				</h4>
+				<hr/>
+				<div class="text-center">
+					<a href="screenshots/request_directory_SD.png" class="btn btn-md btn-warning">Diagram</a>
+				</div>
+				<p class="lead text-left">
+					The Provider uses their ChocAn Terminal to request a Directory report.
+				</p>
+			</div>
+
+
+
+			<div class="col-md-5 seq-d">
+				<h4 class="text-center lead">
+					Send Email
+				</h4>
+				<hr/>
+				<div class="text-center">
+					<a href="screenshots/send_email_SD.png" class="btn btn-md btn-warning">Diagram</a>
+				</div>
+				<p class="lead text-left">
+					Once the ChocAn Database recieves the request sent in by the Provider's ChocAn Terminal, it looks for the email assigned to the Provider and their terminal,
+					then copies all of the available service listings. Once the listings are copied, the database then emails the Provider the Service Listings Document.
+				</p>
+			</div>
+	</div>
+
+
+	<br/>
+	<hr/>
+	<br/>
+
+
+</div>
+<!-- END OF TASK 2 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- TASK 3 -->
+<br/><br/><br/>
+<div id="coupling-and-cohesion">
+	<h2 style="font-size: 250%;" class="section-heading lead text-center">Analysis of Coupling and Cohesion</h2>
+	<hr/><br/>
+	<p style="font-size: 95%;" class="lead">
+		 In computer science, coupling and cohesion go hand in hand. Coupling is defined as the degree of interaction between software modules while cohesion is the degree of interaction from within a software module. A good program design uses a low degree of coupling and a high degree of cohesion. Our design has a low degree of coupling. The only interactions between separate modules happens when information is being gathered for sending reports or when databases are being accessed or updated. Our design also has a high degree of cohesion. The methods contained within classes are related only to the class in which it is contained. Most of the methods are setters and getters which are perfect examples of methods which have a specific purpose related to the module in which it is being contained and does not affect other modules or require info from other modules. 
+	</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br/><br/><hr/>
+<!-- team section -->
+<section style="margin-top: 75px;" class="section team-section">
+    <h2 class="section-heading lead text-center">Our amazing team</h2>
+    <p class="section-description">Team Rocket is Blasting off againnnnn!</p>
+    <div class="row text-center">
+        <div style="margin: 18px;" class="col-lg-2 col-md-6 mb-r">
+            <div style="margin-bottom: 15px; float: right; margin-right: 15px;" class="avatar">
+                <img src="https://i.groupme.com/638x640.jpeg.2304e6d86d0f4d368927293b02b12143" width="250" height="250" class="rounded-circle">
+            </div>
+            <h6 class="lead">Raychel Delaney</h6>
+			<p>11556584</p>
+            <p style="color: #4d4d4d; font-size: 80%;">rhdelaney@crimson.ua.edu</p>
+        </div>
+        <div style="margin: 18px;" class="col-lg-2 col-md-6 mb-r">
+            <div style="margin-bottom: 15px; float: right; margin-right: 15px;" class="avatar">
+                <img src="https://i.groupme.com/750x750.jpeg.683abea8d50e4d938dfee793487e0c86.preview" width="250" height="250" class="rounded-circle">
+            </div>
+            <h6 class="lead">Landon Newberry</h6>
+			<p>11637580</p>
+            <p style="color: #4d4d4d; font-size: 80%;">ltnewberry@crimson.ua.edu</p>
+        </div>
+        <div style="margin: 18px;" class="col-lg-2 col-md-6 mb-r">
+            <div style="margin-bottom: 15px; float: right; margin-right: 15px;" class="avatar">
+                <img src="https://i.groupme.com/640x640.jpeg.026964d6a3cb46c39d73a0107866c18a" width="250" height="250" class="rounded-circle">
+            </div>
+            <h6 class="lead">Jacob Cowles</h6>
+			<p>11565340</p>
+            <p style="color: #4d4d4d; font-size: 80%;">jrcowles@crimson.ua.edu</p>
+        </div>
+		<div style="margin: 18px;" class="col-lg-2 col-md-6 mb-r">
+            <div style="margin-bottom: 15px; float: right; margin-right: 15px;" class="avatar">
+                <img src="https://i.groupme.com/750x750.jpeg.840e5e6c704949c89982cadeb8563e31" width="250" height="250" class="rounded-circle">
+            </div>
+            <h6 class="lead">Carson Dobiash</h6>
+			<p>11723991</p>
+            <p style="color: #4d4d4d; font-size: 80%;">cjdobiash@crimson.ua.edu</p>
+        </div>
+		<div style="margin: 18px;" class="col-lg-2 col-md-6 mb-r">
+            <div style="margin-bottom: 15px; float: right; margin-right: 15px;" class="avatar">
+                <img src="https://www.askideas.com/media/45/Very-Funny-Sad-Face-Bill-Clinton-Picture-For-Facebook.jpg" width="250" height="250" class="rounded-circle">
+            </div>
+            <h6 class="lead">Francisco Rovelo</h6>
+			<p>11493190</p>
+            <p style="color: #4d4d4d; font-size: 80%;">farovelo@crimson.ua.edu</p>
+        </div>
+    </div>
+</section>
+
+</div> <!-- END PROJECT 3 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+
+
+
+	IGNORE ANYTHING PAST HERE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+	-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- PROJECT 2 -->
+<div class="project" id="p2">
+
+		<div style="margin-bottom: 25px;" class="card default-color text-center z-depth-2">
+    <div class="card-block">
+        <p style="font-size: 200%; font-family: monospace;" class="white-text">Seal Team 6</p>
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<div class="btn-group" role="group" aria-label="Basic example">
+					<a href="#task-distribution" class="btn btn-secondary">Task Distribution</a>
+					<a href="#use-cases" class="btn btn-secondary">Use Cases</a>
+					<a href="#glossary" class="btn btn-secondary">Glossary</a>
+					<a href="#task1" class="btn btn-secondary">Project 2 Task 1 Summary</a>
+				</div>
+			</div>
+		</div>
+    </div>
+</div>
+<br/>
+<br/>
+<div class="row">
+	<div class="col-md-12 text-center">
+		<a href="screenshots/ChocAnMainOverview--Revised.png" class="btn btn-lg btn-primary">Overview Use Case Diagram</a>
+		<a href="screenshots/stereotype.png" class="btn btn-lg btn-primary" id = "stereotype">Overview Stereotype Diagram</a>
+		<a href="screenshots/Main_Activity_Diagram.png" class="btn btn-lg btn-primary">Overview Dynamic Flow Diagram</a>
+	</div>
+</div>
+
+<!-- task distribution section -->
+<h2 id="task-distribution" class="lead text-center" style="font-size: 150%; font-family: monospace; margin-top: 100px;">Task Distribution</h2>
+<hr/>
+<div style="margin-left: 50px;" class="row">
+	<div style="margin: 20px;" class="col-lg-5">
+    	<div class="card card-warning text-center z-depth-2">
+    	    <div class="card-block">
+				<h4 style="font-weight: bold; color: white; font-size: 150%; margin-bottom: 35px;" class="lead">
+					<span class="pull-left">Landon Newberry </span>
+					<span class="pull-right">8.5 hr</span></h4>
+				<hr/>
+    	        <p class="white-text">
+					<ul class="white-text text-left">
+						<li>Formatted all of the HTML for the report</li>
+						<li>&nbsp;</li>
+						<li>Overview Use Case Diagram</li>
+						<li>&nbsp;</li>
+						<li>Use Cases:
+							<ul>
+								<li>&nbsp;&nbsp;&nbsp;&nbsp;
+									<a href="#sending-reports">Generating Reports</a>
+								</li>
+								<li>&nbsp;&nbsp;&nbsp;&nbsp;
+									<a href="#send-financial-reports">Generate Financial Reports</a>
+								</li>
+								<li>&nbsp;&nbsp;&nbsp;&nbsp;
+									<a href="#send-provider-reports">Generate Provider Reports</a>
+								</li>
+								<li>&nbsp;&nbsp;&nbsp;&nbsp;
+									<a href="#send-member-reports">Generate Member Reports</a>
+								</li>
+							</ul>
+						</li>
+						<li>&nbsp;</li>
+						<li>Use Case Diagram:
+							<ul>
+								<li>&nbsp;&nbsp;&nbsp;&nbsp;
+									<a href="screenshots/Send_Reports_--_Landon.png">Send Reports</a>
+								</li>
+								<li>&nbsp;&nbsp;&nbsp;&nbsp;
+									<a href="screenshots/ChocAnMainOverview--Revised.png">Main Overview</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</p>
+    	    </div>
+   		</div>
+	</div>
+	<div style="margin: 20px;" class="col-lg-5">
+    	<div class="card card-warning text-center z-depth-2">
+    	    <div class="card-block">
+				<h4 style="font-weight: bold; color: white; font-size: 150%; margin-bottom: 35px;" class="lead text-center">
+					<span class="pull-left">Raychel Delaney </span>
+					<span class="pull-right">6 hr</span></h4>
+				</h4>
+				<hr/>
+    	        <p class="white-text">
+					<ul class="white-text text-left">
+						<li>Revised Diagrams</li>
+						<li>&nbsp;</li>
+						<li>Revision of Project 1</li>
+						<li>&nbsp;</li>
+						<li>Editting File</li>
+						<li>&nbsp;</li>
+						<li>Use Cases:
+							<ul>
+								<li>&nbsp;&nbsp;&nbsp;&nbsp;
+									<a href="#bill-chocan">Bill ChocAn</a>
+								</li>
+								<li>&nbsp;&nbsp;&nbsp;&nbsp;
+									<a href="#write-disk">Write to Disk</a>
+								</li>
+								<li>&nbsp;&nbsp;&nbsp;&nbsp;
+									<a href="#display-total">Displays Service Fee Total</a>
+								</li>
+								<li>&nbsp;&nbsp;&nbsp;&nbsp;
+									<a href="#swipe-card">Swipe Card</a>
+								</li>
+							</ul>
+						</li>
+						<li>&nbsp;</li>
+						<li>Use Case Diagram:
+							<ul>
+								<li>&nbsp;&nbsp;&nbsp;&nbsp;
+									<a href="screenshots/billchocan.png">Bill ChocAn</a>
+								</li>
+							</ul>
+						</li>						
+					</ul>
+				</p>
+    	    </div>
+   		</div>
+	</div>
+	<div style="margin: 20px;" class="col-lg-5">
+    	<div class="card card-warning text-center z-depth-2">
+    	    <div class="card-block">
+				<h4 style="font-weight: bold; color: white; font-size: 150%; margin-bottom: 35px;" class="lead text-center">
+					<span class="pull-left">Francisco Rovelo </span>
+					<span class="pull-right">7 hr</span></h4>	
+				</h4>
+				<hr/>
+    	        <p class="white-text">
+					<ul class="white-text text-left">
+						<li>Project 2:
+							<ul>
+								<li>&nbsp;&nbsp;&nbsp;&nbsp;
+								 	Revised Project 1
+								 </li>
+								<li>&nbsp;&nbsp;&nbsp;&nbsp;
+									Task 1 Summary
+								</li>
+								<li>&nbsp;&nbsp;&nbsp;&nbsp;
+									Activity Diagrams:
+									<ul>
+										<li>&nbsp;&nbsp;&nbsp;&nbsp;
+											&nbsp;&nbsp;&nbsp;&nbsp;
+								 			<a href="screenshots/FransPics/ManageAD.png">Manage</a>
+								 		</li>
+										<li>&nbsp;&nbsp;&nbsp;&nbsp;
+											&nbsp;&nbsp;&nbsp;&nbsp;
+											<a href="screenshots/FransPics/ManageMAD.png">Manage Member</a>
+										</li>
+										<li>&nbsp;&nbsp;&nbsp;&nbsp;
+											&nbsp;&nbsp;&nbsp;&nbsp;
+											<a href="screenshots/FransPics/ManagePAD.png">Manage Provider</a>
+										</li>
+										<li>&nbsp;&nbsp;&nbsp;&nbsp;
+											&nbsp;&nbsp;&nbsp;&nbsp;
+											<a href="screenshots/FransPics/ManagePDAD.jpg">Manage Provider Directory</a>
+										</li>
+										<li>&nbsp;&nbsp;&nbsp;&nbsp;
+											&nbsp;&nbsp;&nbsp;&nbsp;
+											<a href="screenshots/FransPics/ValidateAD.png">Validate Card</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li>&nbsp;</li>
+						<li>Project 1:</li>
+							<ul>
+								<li>&nbsp;&nbsp;&nbsp;&nbsp	
+									Use Cases:
+									<ul>
+										<li>&nbsp;&nbsp;&nbsp;&nbsp;
+											&nbsp;&nbsp;&nbsp;&nbsp;
+											<a href="#Manage">Manage</a>
+										</li>
+										<li>&nbsp;&nbsp;&nbsp;&nbsp;
+											&nbsp;&nbsp;&nbsp;&nbsp;
+											<a href="#manage-member">Manage Member</a>
+										</li>
+										<li>&nbsp;&nbsp;&nbsp;&nbsp;
+											&nbsp;&nbsp;&nbsp;&nbsp;
+											<a href="#manage-provider">Manage Provider</a>
+										</li>
+										<li>&nbsp;&nbsp;&nbsp;&nbsp;
+											&nbsp;&nbsp;&nbsp;&nbsp;
+											<a href="#manage-provider-directory">Manage Provider Directory</a>
+										</li>
+										<li>&nbsp;&nbsp;&nbsp;&nbsp;
+											&nbsp;&nbsp;&nbsp;&nbsp;
+											<a href="#Validate-Card">Validate Card</a>
+										</li>
+									</ul>
+								</li>
+								<li>&nbsp;</li>
+								<li> &nbsp;&nbsp;&nbsp;&nbsp;
+									Use Case Diagram:
+										<li>&nbsp;&nbsp;&nbsp;&nbsp;
+											&nbsp;&nbsp;&nbsp;&nbsp;
+											<a href="screenshots/FransPics/01.png">Manage VPP</a>
+										</li>
+										<li>&nbsp;&nbsp;&nbsp;&nbsp;
+											&nbsp;&nbsp;&nbsp;&nbsp;
+											<a href="screenshots/FransPics/02.png">Validate Card VPP</a>
+										</li>
+							</ul>
+						</li>
+					</ul>
+				</p>
+    	    </div>
+   		</div>
+	</div>
+	<div style="margin: 20px;" class="col-lg-5">
+    	<div class="card card-warning text-center z-depth-2">
+    	    <div class="card-block">
+				<h4 style="font-weight: bold; color: white; font-size: 150%; margin-bottom: 35px;" class="lead text-center">
+					<span class="pull-left">Jacob Cowles </span>
+					<span class="pull-right">7 hr</span></h4>
+				</h4>
+				<hr/>
+    	        <p class="white-text">
+					<ul class="white-text text-left">
+						<li>Revised Project 1</li>
+						<li>&nbsp;</li>
+						<li>Main Activity Diagram</li>
+						<li>&nbsp;</li>
+						<li>Use Cases:
+							<ul>
+								<li>&nbsp;&nbsp;&nbsp;&nbsp;
+								<a href="#send-directory">Send Directory</a>
+								</li>
+							<ul>
+						</li>
+						<li>&nbsp;</li>
+						<li>Use Case Diagram:
+								<li>&nbsp;&nbsp;&nbsp;&nbsp;
+									<a href="screenshots/ChocAn_Send_Directory_--_Jake.png">Send Directory</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</p>
+    	    </div>
+   		</div>
+	</div>
+	<div style="margin: 20px;" class="col-lg-5">
+    	<div class="card card-warning text-center z-depth-2">
+    	    <div class="card-block">
+				<h4 style="font-weight: bold; color: white; font-size: 150%; margin-bottom: 35px;" class="lead text-center">
+					<span class="pull-left">Carson Dobiash </span>
+					<span class="pull-right">6.5 hr</span></h4>
+				</h4>
+				<hr/>
+    	        <p class="white-text">
+					<ul class="white-text text-left">
+						<li>Revised Project 1</li>
+						<li><a href="#glossary">Glossary</a></li>
+						<li><a href="#stereotype">Stereotype Diagram</a><li>
+						<li>Edited HTML</li>
+						<li>Final Checks</li>
+						<li>Submitter</li>
+					</ul>
+				</p>
+    	    </div>
+   		</div>
+	</div>
+</div>
+
+<!-- use cases -->
+<h2 id="use-cases" class="lead text-center" style="font-size: 150%; font-family: monospace; margin-top: 100px;">Use Case Diagrams</h2>
+<hr/>
+
+<div id="Validate-Card" style="margin-top: 25px;" class="card">
+	<h3 class="card-header primary-color white-text"><i>Validate Card</i><span class="pull-right">Francisco Rovelo</span></h3>
+    <div class="card-block">
+    <span class="pull-right"><a class="btn btn-sm btn-warning" href="screenshots/FransPics/ValidateAD.png">Activity Diagram</a></span>
+        <h4 class="card-title">Validate Card</h4>
+        <p class="card-text">This use case is used after the card has been swiped and checks the card information with that on file</p>
+		<hr/>
+		<h4 class="card-title">Actors</h4>
+		<p class="card-text">
+			Provider, Member
+		</p>
+		<hr/>
+		<h4 class="card-title">Main Success Scenario</h4>
+		<p class="card-text">
+			<ol>
+				<li>After the card is swiped, the number is looked up in the system.</li>
+				<li>The terminal then dials the <i>Data Center</i> and it verifies the the member number.</li>
+				<li>If the numbers match, the words VALIDATED appears on the one-line display.</li>
+				<li>If the number is rejected, the reason is displayed; such as INVALID NUMBER or MEMBER SUSPENDED.</li>
+			</ol>
+		</p>
+		<br/>
+		<div id="swipe-card" class="card">
+			<div class="card-header card-title default-color-dark white-text text-center">
+				Swipe Card
+    		</div>
+			<span class="pull-right"><a class="btn btn-sm btn-warning" href="screenshots/FransPics/SCAD.jpg">Activity Diagram</a></span>
+			<div class="card-block">
+				<h4 class="card-text">Context</h4>
+				<hr/>
+				<p class="card-text">
+					This use case is used when the provider swipes the members card
+				</p>
+				<br/>
+				<h4 class="card-text">Actors</h4>
+				<hr/>
+				<h5 class="card-text">
+					Provider, Member
+				</h5>
+				<br/>
+				<h4 class="card-text">Main Success Scenario</h4>
+				<hr/>
+				<p class="card-text">
+					<ol>
+						<li>After the card is swiped, the number is looked up in the system.</li>
+					</ol>
+				</p>
+				<br/>
+    		</div>
+		</div>
+		<br/>
+
+<div id="Manage" style="margin-top: 25px;" class="card">
+	<h3 class="card-header primary-color white-text"><i>Manage</i><span class="pull-right">Francisco Rovelo</span></h3>
+    <div class="card-block">
+    <span class="pull-right"><a class="btn btn-sm btn-warning" href="screenshots/FransPics/ManageAD.png">Activity Diagram</a></span>
+        <h4 class="card-title">Manage</h4>
+        <p class="card-text">This use case is used for the operator to understand their responsibilities</p>
+		<hr/>
+		<h4 class="card-title">Actors</h4>
+		<p class="card-text">Operator</p>
+		<hr/>
+		<h4 class="card-title">Main Success Scenario</h4>
+		<p class="card-text">
+			<ol>
+				<li>Operator can access the system and manage a member</li>
+				<li>Operator can access the system and manage a provider</li>
+				<li>Operator can access the system and manage a provider directory</li>
+			</ol>
+		</p>
+		<br/>
+		<div id="manage-member" class="card">
+			<div class="card-header card-title default-color-dark white-text text-center">
+				Manage Member
+    		</div>
+			<span class="pull-right"><a class="btn btn-sm btn-warning" href="screenshots/FransPics/ManageMAD.png">Activity Diagram</a></span>
+			<div class="card-block">
+				<h4 class="card-text">Context</h4>
+				<hr/>
+				<p class="card-text">
+					This use case is used by the operator when editing a member
+				</p>
+				<br/>
+				<h4 class="card-text">Actors</h4>
+				<hr/>
+				<h5 class="card-text">
+					Manager, Member
+				</h5>
+				<br/>
+				<h4 class="card-text">Main Success Scenario</h4>
+				<hr/>
+				<p class="card-text">
+					<ol>
+						<li>The Manager can acces the system and add the member.</li>
+						<li>The Manager can acces the system and delete the member after looking up the id</li>
+						<li>The manager can acces the system and update the member parameters</li>
+					</ol>
+				</p>
+				<br/>
+    		</div>
+		</div>
+		<br/>
+		<div id="manage-provider" class="card">
+			<div class="card-header card-title default-color-dark white-text text-center">
+				Manage Provider
+    		</div>
+			<span class="pull-right"><a class="btn btn-sm btn-warning" href="screenshots/FransPics/ManagePAD.png">Activity Diagram</a></span>
+			<div class="card-block">
+				<h4 class="card-text">Context</h4>
+				<hr/>
+				<p class="card-text">
+					This use case is used by the operator when editing a provider
+				</p>
+				<br/>
+				<h4 class="card-text">Actors</h4>
+				<hr/>
+				<h5 class="card-text">
+					Provider, Manager
+				</h5>
+				<br/>
+				<h4 class="card-text">Main Success Scenario</h4>
+				<hr/>
+				<p class="card-text">
+					<ol>
+						<li>The Manager can acces the system and add the provider.</li>
+						<li>The Manager can acces the system and delete the provider</li>
+						<li>The Manager can acces the system and update the provider parameters</li>
+					</ol>
+				</p>
+				<br/>
+    		</div>
+		</div>
+		<br/>
+		<div id="manage-provider-directory" class="card">
+			<div class="card-header card-title default-color-dark white-text text-center">
+				Manage Provider Directory
+    		</div>
+			<span class="pull-right"><a class="btn btn-sm btn-warning" href="Screenshots/FransPics/ManagePDAD.jpg">Activity Diagram</a></span>
+			<div class="card-block">
+				<h4 class="card-text">Context</h4>
+				<hr/>
+				<p class="card-text">
+					This use case is used by the operator to manage a provider directory
+				<br/>
+				<h4 class="card-text">Actors</h4>
+				<hr/>
+				<h5 class="card-text">
+					Provider, Manager
+				</h5>
+				<br/>
+				<h4 class="card-text">Main Success Scenario</h4>
+				<hr/>
+				<p class="card-text">
+					<ol>
+						<li>The operator can acces the system and add a service</li>
+						<li>The operator can acces the system and remove a service.</li>
+					</ol>
+				</p>
+				<br/>
+    		</div>
+		</div>
+		<br/>
+
+		<span class="pull-right">
+			<a href="screenshots/FransPics/01.png" class="btn btn-secondary">View Screenshot</a>
+		</span>
+    </div>
+</div>
+
+<div id="bill-chocan" style="margin-top: 25px;" class="card">
+	<h3 class="card-header primary-color white-text"><i>Bill ChocAn</i><span class="pull-right">Raychel Delaney</span></h3>
+    <div class="card-block">
+        <h2>Bill ChocAn Main Use Case</h2>
+		<span class="pull-right"><a class="btn btn-sm btn-warning" href="screenshots/billchocanAD.png">Activity Diagram</a></span>
+		<br/>
+        <h4 class="card-title">Context</h4>
+        <p class="card-text">
+		This use case is used by the provider to bill ChocAn after a health care service has been provided to a ChocAn member.	
+		</p>
+		<hr/>
+		<h4 class="card-title">Actors</h4>
+		<p class="card-text">
+			Provider, System
+		</p>
+		<hr/>
+		<h4 class="card-title">Main Success Scenario</h4>
+		<p class="card-text">
+			<ol>
+				<li>The provider keys in the member number or swipes the member's card through the system.</li>
+				<li>If the entry is valid, the provider enters the date the service was performed and the service code.</li>
+				<li>The software shows the name of the service to be verified by the provider.
+					<ol>
+						<li>The provider can add comments about the service provided if so desired.</li>
+					</ol>	
+				</li>
+				<li>The provider tells the software that it is the right service.</li>
+				<li>The software writes information to a disc.</li>
+				<li>The software looks up and shows the fee to be paid to the provider.</li>
+				<li>The provider fills out a form with information including the fee.</li>
+				<li>The provider totals the fees for that week at the end of the week.</li>
+			</ol>
+		</p>
+		<br/>
+		<br/>
+		<div id="service-code" class="card">
+			<div class="card-header card-title default-color-dark white-text text-center">
+				Enter Service Code
+    		</div>
+			<span class="pull-right"><a class="btn btn-sm btn-warning" href="screenshots/servicecodeAD.png">Activity Diagram</a></span>
+			<div class="card-block">
+				<h4 class="card-text">Context</h4>
+				<hr/>
+				<p class="card-text">
+					After the provider swipes the members card to start preparing the Bill through the ChocAn System, the provider is then tasked with finding, entering, and verifying the service code before proceeding to the next step.
+				</p>
+				<br/>
+				<h4 class="card-text">Actors</h4>
+				<hr/>
+				<h5 class="card-text">
+					Provider, System
+				</h5>
+				<br/>
+				<h4 class="card-text">Main Success Scenario</h4>
+				<hr/>
+				<p class="card-text">
+					<ul>
+						<li>1. After the card returned a valid swipe, the provider uses the Provider Directory to look up the six-digit service code.</li>
+						<li>2. After the service code is found, the provider keys it into the system. </li>
+						<li>3. The software displays the name of the service associated with the keyed in code. and asks the provider to verify it.</li>
+					</ul>
+				</p>
+				<br/>
+    		</div>
+		</div>
+		<br/>
+		<div id="write-disk" class="card">
+			<div class="card-header card-title default-color-dark white-text text-center">
+				Write to Disk
+    		</div>
+			<span class="pull-right"><a class="btn btn-sm btn-warning" href="screenshots/writediskAD.png">Activity Diagram</a></span>
+			<div class="card-block">
+				<h4 class="card-text">Context</h4>
+				<hr/>
+				<p class="card-text">
+					After the provider verifies the service code while preparing the Bill through the ChocAn System, the provider is then tasked with editting and filling in all the form slots accurately. After that has been verified, it writes to disk and displays an error message if input is invalid. The information written into the disk and field requirements include:
+					<ul>
+						<li>Current date and time (MM–DD–YYYY HH:MM:SS)</li>
+						<li>Date service was provided (MM–DD–YYYY) </li>
+						<li>Provider number (9 digits)</li>
+						<li>Member number (9 digits)</li>
+						<li>Service code (6 digits)</li>
+						<li>Comments (100 characters) (optional).</li>
+					</ul>
+				</p>
+				<br/>
+				<h4 class="card-text">Actors</h4>
+				<hr/>
+				<h5 class="card-text">
+					Provider, System
+				</h5>
+				<br/>
+				<h4 class="card-text">Main Success Scenario</h4>
+				<hr/>
+				<p class="card-text">
+					<ul>
+						<li>1. After the provider verified the service code, the provider fills out the rest of the form accurately.</li>
+						<li>2. After the provider is finished filling out the form they proceed to verifying that the information inputted was accurate. </li>
+						<li>3. The system checks the fields for accuracy and writes to disk if no issues are found.</li>
+						<li>4. If an issues is found an error message will appear about the issue.<li>
+					</ul>
+				</p>
+				<br/>
+    		</div>
+		</div>
+		<br/>
+		<div id="display-total" class="card">
+			<div class="card-header card-title default-color-dark white-text text-center">
+				Displays Service Fee Total
+    		</div>
+			<span class="pull-right"><a class="btn btn-sm btn-warning" href="screenshots/displaytotalAD.png">Activity Diagram</a></span>
+			<div class="card-block">
+				<h4 class="card-text">Context</h4>
+				<hr/>
+				<p class="card-text">
+					After the provider finished inputting the information into the system and verified it's accuracy, the sytem begins doing calculations. The prepared Bill through the ChocAn System, is displayed on the screen. The next step requires the provides to take notes off the system and total up the fees every week to compare it to the system.
+				<br/>
+				<h4 class="card-text">Actors</h4>
+				<hr/>
+				<h5 class="card-text">
+					Provider, System
+				</h5>
+				<br/>
+				<h4 class="card-text">Main Success Scenario</h4>
+				<hr/>
+				<p class="card-text">
+					<ul>
+						<li>1. After the disk was written, the system displays the total fees.</li>
+						<li>2. The provide takes notes off the system of the same transaction for backup and verification purposes. </li>
+						<li>3. At the end of every week, the provider totals up the fees and compares their values to the value displayed on the system.</li>
+					</ul>
+				</p>
+				<br/>
+    		</div>
+		</div>
+		<br/>
+		<span class="pull-right">
+			<a href="screenshots/billchocan.png" class="btn btn-secondary">View Screenshot</a>
+		</span>
+    </div>
+</div>
+
+<div id="sending-reports" style="margin-top: 25px;" class="card">
+	<h3 class="card-header primary-color white-text"><i>Sending Reports Use Case Diagram</i><span class="pull-right">Landon Newberry</span></h3>
+    <div class="card-block">
+		<h2>Generate Reports Use Case</h2>
+		<span class="pull-right"><a class="btn btn-sm btn-warning" href="screenshots/Generate_Reports_Use_Case.png">Activity Diagram</a></span>
+		<br/>
+        <h4 class="card-title">Context</h4>
+        <p class="card-text">
+			This activity diagram gives an overview of sending reports to members, providers, and ChocAn managers.
+			<i>Member reports</i> are email attachments sent to members at midnight on Fridays (or when a manager requests).
+			<i>Provider reports</i> are email attachments sent to each provider who has billed ChocAn during the week.
+			<i>Summary reports</i> include a list of every provider to be paid for the week, the number of consultations each, and their total fee. 
+		</p>
+		<hr/>
+		<h4 class="card-title">Actors</h4>
+		<p class="card-text">
+			Member, Manager, ChocAn Data Center, Provider
+		</p>
+		<hr/>
+		<h4 class="card-title">Main Success Scenario</h4>
+		<p class="card-text">
+			<p class="card-text">
+				<ol>
+					<li>On Fridays, a process in the ChocAn Data Center begins that does the accounting for the week.</li>
+					<li>The system compiles the reports.</li>
+					<li>The system sens the member, provider, and summary reports to their respective party.</li>
+				</ol>
+			</p>
+		</p>
+		<br/>
+		<h4 class="card-text">Exceptions</h4>
+		<hr/>
+		<p class="card-text">
+			At any point during the week, the manager can request this report and have the 
+			accounting process completed and receive the report as an email attachment.
+		</p>
+		<br/>
+		<h4 class="card-title">Extensions</h4>
+		<hr/>
+		<p class="card-text">
+			
+		<div id="send-financial-reports" class="card">
+    		<div class="card-header card-title default-color-dark white-text text-center">
+				Generate Financial Reports <b>extends</b> Generate Reports
+    		</div>
+			<span class="pull-right"><a class="btn btn-sm btn-warning" href="screenshots/Generate_Financial_Report_Use_Case.png">Activity Diagram</a></span>
+    		<div class="card-block">
+				<h4 class="card-text">Context</h4>
+				<hr/>
+				<p class="card-text">
+					This use case is relevant when the system is generating reports. This specific report 
+					is the financial (summary) report and the report is given to the manager for accounts payable. The report lists every provider to be paid that week, the number of consultations each had, and his or her total fee for that week. Finally, the total number of providers who provided services, the total number of consultations, and the overall fee total are printed. 
+				</p>
+				<br/>
+				<h4 class="card-text">Actors</h4>
+				<hr/>
+				<h5 class="card-text">
+					ChocAn Data Center, Manager
+				</h5>
+				<br/>
+				<h4 class="card-text">Main Success Scenario</h4>
+				<hr/>
+					<ul>
+						<li>1. On Fridays at midnight, the ChocAn Data Center runs a general accounting process 
+							for the week.
+						</li>
+						<li>2. After general accounting is complete, the Financial (summary) reports are generated.</li>
+						<li>3. The generated summary reports are sent to the manager for accounts payable.</li>
+					</ul>
+    		</div>
+		</div>
+		<br/>
+
+		<div id="send-provider-reports" class="card">
+    		<div class="card-header card-title default-color-dark white-text text-center">
+				Generate Provider Reports <b>extends</b> Generate Reports
+    		</div>
+			<span class="pull-right"><a class="btn btn-sm btn-warning" href="screenshots/Generate_Provider_Reports_Use_Case.png">Activity Diagram</a></span>
+			<div class="card-block">
+				<h4 class="card-text">Context</h4>
+				<hr/>
+				<p class="card-text">
+					The provider report is sent as an
+					e-mail attachment, containing the list of services that the provider has provided to ChocAn members.
+					To simplify the task of verifi cation, the report contains the same information as that entered
+					on the provider’s form, in the order that the data were received by the computer. At the end
+					of the report is a summary including the number of consultations with members and the
+					total fee for that week. That is, the fields of the report include: 
+					<ul>
+							<li>Provider name</li>
+							<li>Provider number</li>
+							<li>Provider street address</li>
+							<li>Provider city</li>
+							<li>Provider state</li>
+							<li>Provider ZIP code</li>
+							<li>
+								For each service provided:
+								<ul>
+									<li>&nbsp;&nbsp;&nbsp;&nbsp;Date of service</li>
+									<li>&nbsp;&nbsp;&nbsp;&nbsp;Date and time data were received</li>
+									<li>&nbsp;&nbsp;&nbsp;&nbsp;Member name</li>
+									<li>&nbsp;&nbsp;&nbsp;&nbsp;Service code</li>
+									<li>&nbsp;&nbsp;&nbsp;&nbsp;Fee to be paid</li>
+								</ul>
+							</li>
+							<li>Total number of consultations with members</li>
+							<li>Total fee for the week</li>
+						</ul>
+				</p>
+				<br/>
+				<h4 class="card-text">Actors</h4>
+				<hr/>
+				<h5 class="card-text">
+					ChocAn Data Center, Provider
+				</h5>
+				<br/>
+				<h4 class="card-text">Main Success Scenario</h4>
+				<hr/>
+					<ul>
+						<li>1. On Fridays at midnight, the ChocAn Data Center runs a general accounting process 
+							for the week.
+						</li>
+						<li>2. After general accounting is complete, the Provider reports are generated.</li>
+						<li>3. The generated summary reports are sent to the provider.</li>
+					</ul>
+    		</div>
+		</div>
+		<br/>
+
+		<div id="send-member-reports" class="card">
+			<div class="card-header card-title default-color-dark white-text text-center">
+				Generate Member Reports <b>extends</b> Generate Reports
+    		</div>
+			<span class="pull-right"><a class="btn btn-sm btn-warning" href="screenshots/Generate_Member_Reports_Use_Case.png">Activity Diagram</a></span>
+			<div class="card-block">
+				<h4 class="card-text">Context</h4>
+				<hr/>
+				<p class="card-text">
+					Each member who has consulted a ChocAn provider during that week receives a list of services provided to that member in the form of the <i>member report</i>, sorted in order of service date. The report, which is also sent as an e-mail attachment, includes:
+					<ul>
+						<li>Member name</li>
+						<li>Member number</li>
+						<li>Member street address</li>
+						<li>Member city</li>
+						<li>Member state</li>
+						<li>Member ZIP code</li>
+						<li>
+							For each service provided:
+							<ul>
+								<li>&nbsp;&nbsp;&nbsp;&nbsp;Date of service</li>
+								<li>&nbsp;&nbsp;&nbsp;&nbsp;Provider name</li>
+								<li>&nbsp;&nbsp;&nbsp;&nbsp;Service name</li>
+							</ul>
+						</li>
+					</ul>
+				</p>
+				<br/>
+				<h4 class="card-text">Actors</h4>
+				<hr/>
+				<h5 class="card-text">
+					ChocAn Data Center, Member
+				</h5>
+				<br/>
+				<h4 class="card-text">Main Success Scenario</h4>
+				<hr/>
+				<p class="card-text">
+					<ul>
+						<li>1. On Fridays at midnight, the ChocAn Data Center runs a general accounting process 
+							for the week.
+						</li>
+						<li>2. After general accounting is complete, the member reports are generated.</li>
+						<li>3. The generated member are sent to the manager.</li>
+					</ul>
+				</p>
+				<br/>
+    		</div>
+		</div>
+		<br/>
+		</p>
+		<br/>
+		<span class="pull-right">
+			<a href="screenshots/Send_Reports_--_Landon.png" class="btn btn-secondary">View Screenshot</a>
+		</span>
+    </div>
+</div>
+
+<div id="send-directory" style="margin-top: 25px;" class="card">
+	<h3 class="card-header primary-color white-text"><i>Send Directory</i><span class="pull-right">Jacob Cowles</span></h3>
+    <div class="card-block">
+    <span class="pull-right"><a class="btn btn-sm btn-warning" href="screenshots/ChocAn_Send_Directory_AD--_Jake.png">Activity Diagram</a></span>
+        <h4 class="card-title">Context</h4>
+        <p class="card-text">This use case is used when the Provider requests a Service Directory. This directory contains a list of services, the service codes, and the service prices.</p>
+		<hr/>
+		<h4 class="card-title">Actors</h4>
+		<p class="card-text">
+			Provider
+		</p>
+		<hr/>
+		<h4 class="card-title">Main Success Scenario</h4>
+		<p class="card-text">
+			<ol>
+				<li>The Provider logs on to their terminal..</li>
+				<li>
+					They request a directory from the Data Center
+				</li>
+				<li>
+					The data Center processes this request and compiles a directory of services, service codes, and service prices.
+				</li>
+				<li>
+					This directory is emailed back to the provider as an attachment.
+				</li>
+			</ol>
+		</p>
+		<div id="request-directory" class="card">
+			<div class="card-header card-title default-color-dark white-text text-center">
+				Request Directory
+    		</div>
+			<span class="pull-right"><a class="btn btn-sm btn-warning" href="screenshots/ChocAn_Send_Directory_AD--_Jake.png">Activity Diagram</a></span>
+			<div class="card-block">
+				<h4 class="card-text">Context</h4>
+				<hr/>
+				<p class="card-text">
+					A ChocAn Provider can request a directory through their computer terminal.
+				</p>
+				<br/>
+				<h4 class="card-text">Actors</h4>
+				<hr/>
+				<h5 class="card-text">
+					Provider, ChocAn Data Center
+				</h5>
+				<br/>
+				<h4 class="card-text">Main Success Scenario</h4>
+				<hr/>
+				<p class="card-text">
+					<ul>
+						<li>1. The provider logs on to their computer terminal.</li>
+						<li>2. After logging on, the provider requests a directory of services. </li>
+					</ul>
+				</p>
+				<br/>
+    		</div>
+		</div>
+		<div id="send-email" class="card">
+			<div class="card-header card-title default-color-dark white-text text-center">
+				Send Email
+    		</div>
+			<span class="pull-right"><a class="btn btn-sm btn-warning" href="screenshots/Send_Email.png">Activity Diagram</a></span>
+			<div class="card-block">
+				<h4 class="card-text">Context</h4>
+				<hr/>
+				<p class="card-text">
+					When the data center recieves a directory request from a provider, it attaches it into an email and sends it to them.
+				</p>
+				<br/>
+				<h4 class="card-text">Actors</h4>
+				<hr/>
+				<h5 class="card-text">
+					Provider, ChocAn Data Center
+				</h5>
+				<br/>
+				<h4 class="card-text">Main Success Scenario</h4>
+				<hr/>
+				<p class="card-text">
+					<ul>
+						<li>1. The Data Center recieves a request to send a directory.</li>
+						<li>2. The datacenter then queries the database of providers for an email. </li>
+						<li>3. The current service listings are then copied into a document. </li>
+						<li>3. The document is then attached to an email and sent to the provider. </li>
+					</ul>
+				</p>
+				<br/>
+    		</div>
+		</div>
+		<br/>
+		<span class="pull-right">
+			<a href="screenshots/ChocAn_Send_Directory_--_Jake.png" class="btn btn-secondary">View Screenshot</a>
+		</span>
+    </div>
+</div>
+
+<!--glossary starts here-->
+<h2 id="glossary" class="lead text-center" style="font-size: 150%; font-family: monospace; margin-top: 100px;">Glossary</h2>
+<hr/>
+<div style="margin-top: 25px;" class="row">
+	<div class="col-md-12 card card-warning text-center z-depth-2">
+		<div class="card-block">
+			<h4 class="lead white-text">
+				Chocoholics Anonymous (ChocAn)
+			</h4>
+			<p class="white-text">
+				An organization dedicated to helping people who are addicted to chocolate.	
+			</p>
+		</div>
+	</div>
+	<div class="col-md-12 card card-warning text-center z-depth-2">
+		<div class="card-block">
+			<h4 class="lead white-text">
+				ChocAn Members
+			</h4>
+			<p class="white-text">
+				Individuals who pay the monthly fee to ChocAn and participate in the various programs that the organization offers.			
+			</p>
+		</div>
+	</div>
+	<div class="col-md-12 card card-warning text-center z-depth-2">
+		<div class="card-block">
+			<h4 class="lead white-text">
+				Member Card
+			</h4>
+			<p class="white-text">
+				A plastic card with the member's name, nine digit member number, and a magnetic strip containing that information.
+			</p>
+		</div>
+	</div>
+	<div class="col-md-12 card card-warning text-center z-depth-2">
+		<div class="card-block">
+			<h4 class="lead white-text">
+				Provider
+			</h4>
+			<p class="white-text">
+				A Health Care Professional that provides services to ChocAn members.		
+			</p>
+		</div>
+	</div>
+	<div class="col-md-12 card card-warning text-center z-depth-2">
+		<div class="card-block">
+			<h4 class="lead white-text">
+				Provider Number
+			</h4>
+			<p class="white-text">
+				Identification number to distinguish health care professionals.
+			</p>
+		</div>
+	</div>
+	<div class="col-md-12 card card-warning text-center z-depth-2">
+		<div class="card-block">
+			<h4 class="lead white-text">
+				ChocAn Computer Terminal
+			</h4>
+			<p class="white-text">
+				Similar to a credit card reader in a shop, the terminal prompts the provider with a one lined input to enter his or her provider number. To receive that provider's health care services, the member hands his or her card to the provider who then slides the card through the card reader. The terminal pulls from the ChocAn Data Center and verifies the member's number on the card. The terminal also provides billing to ChocAn.
+			</p>
+		</div>
+	</div>
+	<div class="col-md-12 card card-warning text-center z-depth-2">
+		<div class="card-block">
+			<h4 class="lead white-text">
+				Service Code
+			</h4>
+			<p class="white-text">
+				A six-digit code used to represent a specific health care service.
+			</p>
+		</div>
+	</div>
+	<div class="col-md-12 card card-warning text-center z-depth-2">
+		<div class="card-block">
+			<h4 class="lead white-text">
+				Provider Directory
+			</h4>
+			<p class="white-text">
+				An alphabetically-ordered list used to look up the service code corresponding to the service provided. Can be sent as an email when requested by a provider.
+			</p>
+		</div>
+	</div>
+	<div class="col-md-12 card card-warning text-center z-depth-2">
+		<div class="card-block">
+			<h4 class="lead white-text">
+				Record
+			</h4>
+			<p class="white-text">
+				Written after a service code is selected. Contains current date and time, date service was provided, provider number, member number, service code, and optional comments.
+			</p>
+		</div>
+	</div>
+	<div class="col-md-12 card card-warning text-center z-depth-2">
+		<div class="card-block">
+			<h4 class="lead white-text">
+				Provider Form
+			</h4>
+			<p class="white-text">
+				A form the provider fills out for verification purposes after looking up the fee to be paid. Contains the current time and date, the date the service was provided, member name and number, service code, and the fee to be paid.
+			</p>
+		</div>
+	</div>
+	<div class="col-md-12 card card-warning text-center z-depth-2">
+		<div class="card-block">
+			<h4 class="lead white-text">
+				Member Report
+			</h4>
+			<p class="white-text">
+				An email attachment sent to members who received care that week. Sent at midnight on Friday or when requested by a manager. Contains member name, member number, and member's whole address. For each service provided, the date of the service, the provider name, and the service name are also included.
+			</p>
+		</div>
+	</div>
+	<div class="col-md-12 card card-warning text-center z-depth-2">
+		<div class="card-block">
+			<h4 class="lead white-text">
+				Provider Report
+			</h4>
+			<p class="white-text">
+				An email attachment sent to each provider who has billed ChocAn during the week. Contains the same information that is on the provider's form, in the order that the data were received, as well as a summary with the amount of consultations and the total fee for the week.
+			</p>
+		</div>
+	</div>
+	<div class="col-md-12 card card-warning text-center z-depth-2">
+		<div class="card-block">
+			<h4 class="lead white-text">
+				Summary Report
+			</h4>
+			<p class="white-text">
+				A list of every provider to be paid for that week, the number of consultations each had, and his or her total fee for the week. The total number of providers who provided services, the total number of consultations, and each provider's overall fee are printed as well.
+			</p>
+		</div>
+	</div>
+	<div class="col-md-12 card card-warning text-center z-depth-2">
+		<div class="card-block">
+			<h4 class="lead white-text">
+				Interactive Mode
+			</h4>
+			<p class="white-text">
+				A mode of software operation that allows members and providers to be added, removed, and updated in real time.
+			</p>
+		</div>
+	</div>
+</div>
+
+<!--task 1 summary starts here-->
+<h2 id="task1" class="lead text-center" style="font-size: 150%; font-family: monospace; margin-top: 100px;">Project 2 Task 1 Summary</h2>
+<hr/>
+<div style="margin-top: 25px;" class="row">
+	<div class="col-md-12 card default-color-dark text-center z-depth-2">
+		<div class="card-block">
+			<h4 class="lead white-text">
+				All interactions between terminal and data center and all changes and updates to the system and its directory will be computerized. The data for this project will be stored in the ChocAn data center, most likely on harddisk. Required hardware will be terminals for the provider, manager, and operator as well as a server in the facility. The ChocAn software will provide the EFT data to the Financial system and interact with communication software between the terminals and the server. Through the terminal systems and command line the users will interact with the ChocAn system.
+			</h4>
+		</div>
+	</div>
+</div>
+
+
+<!-- team section -->
+<section style="margin-top: 75px;" class="section team-section">
+    <h2 class="section-heading lead text-center">Our amazing team</h2>
+    <p class="section-description">Team Rocket is Blasting off againnnnn!</p>
+    <div class="row text-center">
+        <div style="margin: 18px;" class="col-lg-2 col-md-6 mb-r">
+            <div style="margin-bottom: 15px; float: right; margin-right: 15px;" class="avatar">
+                <img src="https://i.groupme.com/638x640.jpeg.2304e6d86d0f4d368927293b02b12143" width="250" height="250" class="rounded-circle">
+            </div>
+            <h6 class="lead">Raychel Delaney</h6>
+			<p>11556584</p>
+            <p style="color: #4d4d4d; font-size: 80%;">rhdelaney@crimson.ua.edu</p>
+        </div>
+        <div style="margin: 18px;" class="col-lg-2 col-md-6 mb-r">
+            <div style="margin-bottom: 15px; float: right; margin-right: 15px;" class="avatar">
+                <img src="https://i.groupme.com/750x750.jpeg.683abea8d50e4d938dfee793487e0c86.preview" width="250" height="250" class="rounded-circle">
+            </div>
+            <h6 class="lead">Landon Newberry</h6>
+			<p>11637580</p>
+            <p style="color: #4d4d4d; font-size: 80%;">ltnewberry@crimson.ua.edu</p>
+        </div>
+        <div style="margin: 18px;" class="col-lg-2 col-md-6 mb-r">
+            <div style="margin-bottom: 15px; float: right; margin-right: 15px;" class="avatar">
+                <img src="https://i.groupme.com/640x640.jpeg.026964d6a3cb46c39d73a0107866c18a" width="250" height="250" class="rounded-circle">
+            </div>
+            <h6 class="lead">Jacob Cowles</h6>
+			<p>11565340</p>
+            <p style="color: #4d4d4d; font-size: 80%;">jrcowles@crimson.ua.edu</p>
+        </div>
+		<div style="margin: 18px;" class="col-lg-2 col-md-6 mb-r">
+            <div style="margin-bottom: 15px; float: right; margin-right: 15px;" class="avatar">
+                <img src="https://i.groupme.com/750x750.jpeg.840e5e6c704949c89982cadeb8563e31" width="250" height="250" class="rounded-circle">
+            </div>
+            <h6 class="lead">Carson Dobiash</h6>
+			<p>11723991</p>
+            <p style="color: #4d4d4d; font-size: 80%;">cjdobiash@crimson.ua.edu</p>
+        </div>
+		<div style="margin: 18px;" class="col-lg-2 col-md-6 mb-r">
+            <div style="margin-bottom: 15px; float: right; margin-right: 15px;" class="avatar">
+                <img src="https://www.askideas.com/media/45/Very-Funny-Sad-Face-Bill-Clinton-Picture-For-Facebook.jpg" width="250" height="250" class="rounded-circle">
+            </div>
+            <h6 class="lead">Francisco Rovelo</h6>
+			<p>11493190</p>
+            <p style="color: #4d4d4d; font-size: 80%;">farovelo@crimson.ua.edu</p>
+        </div>
+    </div>
+</section>
+
+</div> <!-- END PROJECT 2 -->
+
+
+<script>
+
+	$(document).ready(function() {
+
+		$('#p2').hide();
+
+		$('.project-toggle').click(function () {
+			var pr = $(this)[0].attributes['data-project'].value;
+			
+			$('.project').hide();
+
+			$('#p' + pr).show();
+		});
+	
+	});
+
+</script>
+
+</body>
+
+</html>
