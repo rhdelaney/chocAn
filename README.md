@@ -1,5 +1,5 @@
 # chocAn
-CS200 project of total despair...jk but it taught me SE things
+CS200 project to grow Software Process and team working skills.
 
 For more info, check out the site below
 
